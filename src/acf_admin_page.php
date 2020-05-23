@@ -54,7 +54,7 @@ class ap_acf_admin_page
         $output = '<div class="acfim-section">';
 		$output .= '<h3>Export options</h3>';
 		$output .= '<form method="post" enctype="multipart/form-data" action="'. $plugin_url .'&export">';
-		$output .= '<p>CSV of all option field names. (Repeaters are accepted too)</p>';
+		$output .= '<p>Comma separated list of all option field names. (Repeaters are accepted too)</p>';
 		$output .= '<input type="text" name="options" size="50" required/>';
 		$output .= get_submit_button('Export');
 		$output .= '</form>';

@@ -24,6 +24,7 @@ sub fields as well.
 
 1. The import function runs a `insert_option` function on every record it finds in the json file.
 2. The file to import MUST be called `options.json`. I know, thats lame, but it'll have to do for now.
+3. I've used it with repeaters, groups, selects, text and textarea fields. It *Should* be ok with others, but haven't tested it.
 
 ## Support
 
