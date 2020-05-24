@@ -28,4 +28,4 @@ sub fields as well.
 
 ## Support
 
-LOL
+Nope. If you want to do some changes and make a merge request, go for it. But this is for my own purposes.

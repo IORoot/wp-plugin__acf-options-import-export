@@ -36,9 +36,9 @@ class ap_acf_import_export
     public function exports_options()
     {
 
-        if (isset($_GET['export']) && isset($_GET['page']) && $_GET['page'] == 'ap-acf-import-export' && isset($_POST['option_fields'])) {
+        if (isset($_GET['export']) && isset($_GET['page']) && $_GET['page'] == 'ap-acf-import-export' && isset($_POST['options'])) {
 
-            $this->csv_to_query($_POST['option_fields']);
+            $this->csv_to_query($_POST['options']);
 
             $acf_fields = $this->export_from_db();
 
