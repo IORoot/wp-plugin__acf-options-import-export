@@ -13,6 +13,27 @@ records to my staging and live servers without having to re-create all records b
 allows me to just dump all of the fields out of the `wp_options` table in wordpress and import
 them into another installation quite quickly.
 
+## Usage
+
+A new menu item will appear under the ACF 'custom fields' menu call 'ACF import/export'.
+
+### Exporting
+
+Supply a comma separated list of field names to export 
+```
+my_field1, myrepeater, my_text_area1
+```
+
+Click export, and save the `options.json` file.
+
+### Importing
+
+Click on the button to upload your `options.json` file. Note it **MUST** be called `options.json` to work.
+
+Click import.
+
+    WARNING - ALL  EXISTING FIELDS OF THE SAME NAME WILL BE OVERWRITTEN.
+
 ## Repeaters
 
 This is very handy for repeater fields. I usually place most things into top-level repeater fields. 
