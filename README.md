@@ -19,7 +19,8 @@ A new menu item will appear under the ACF 'custom fields' menu call 'ACF import/
 
 ### Exporting
 
-Supply a comma separated list of field names to export 
+Supply a comma separated list of field names to export.
+
 ```
 my_field1, myrepeater, my_text_area1
 ```
