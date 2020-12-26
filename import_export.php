@@ -24,3 +24,9 @@ require __DIR__.'/src/acf_admin_page.php';
 //  │                              The Class                                  │
 //  └─────────────────────────────────────────────────────────────────────────┘
 require __DIR__.'/src/import_export_class.php'; 
+
+
+//  ┌─────────────────────────────────────────────────────────────────────────┐
+//  │                    Register with ANDYP Plugins                          │
+//  └─────────────────────────────────────────────────────────────────────────┘
+require __DIR__.'/src/acf/andyp_plugin_register.php';
