@@ -1,0 +1,234 @@
+[
+    {
+        "key": "group_5ed379b8bcea1",
+        "title": "Menu Customiser",
+        "fields": [
+            {
+                "key": "field_5ed37c7f324c0",
+                "label": "Menu Icon",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5ed379ddff48f",
+                "label": "Icon",
+                "name": "mc_icon",
+                "type": "text",
+                "instructions": "<a href=\"https:\/\/petershaggynoble.github.io\/MDI-Sandbox\/\">Material Icon<\/a> name. (e.g. mdi-star)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ed37a29ff490",
+                "label": "Icon Colour",
+                "name": "mc_icon_colour",
+                "type": "color_picker",
+                "instructions": "Hex code",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": ""
+            },
+            {
+                "key": "field_5ed38149c80fd",
+                "label": "Icon Position",
+                "name": "mc_icon_position",
+                "type": "select",
+                "instructions": "Before or after title",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "choices": {
+                    "before": "before",
+                    "after": "after"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5ed37a50ff491",
+                "label": "Icon Class",
+                "name": "mc_icon_class",
+                "type": "text",
+                "instructions": "Add an extra CSS class to icon",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ed37d6ad679c",
+                "label": "Menu Image",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5ed37e3ed679d",
+                "label": "Image",
+                "name": "mc_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5ed387113a044",
+                "label": "Image Position",
+                "name": "mc_image_position",
+                "type": "select",
+                "instructions": "Before or After the title",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "choices": {
+                    "before": "before",
+                    "after": "after"
+                },
+                "default_value": [
+                    "before"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5ed38f3ce15a9",
+                "label": "Menu Description",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5ed38f63e15aa",
+                "label": "Description",
+                "name": "mc_description",
+                "type": "true_false",
+                "instructions": "Add description below title.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "nav_menu_item",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

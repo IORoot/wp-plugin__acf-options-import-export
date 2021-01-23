@@ -15,8 +15,8 @@ class ap_acf_admin_page
     {
         add_submenu_page(
             'edit.php?post_type=acf-field-group',
-            'ACF import/export',
-            'ACF import/export',
+            'ACF Data export',
+            'ACF Data export',
             'manage_options',
             'ap-acf-import-export',
             array($this, 'admin_page' )
@@ -30,7 +30,7 @@ class ap_acf_admin_page
 		$plugin_url = '/wp-admin/edit.php?post_type=post&page=ap-acf-import-export'; 
 		
 		$output = '<div class="wrap">';
-		$output .= '<h2>ACF Options import/export</h2>';
+		$output .= '<h2>Data import/export</h2>';
 		$output .= '<div class="acfim-container">';
 
 		if (! function_exists('get_field')){
@@ -52,12 +52,12 @@ class ap_acf_admin_page
     public function export($plugin_url)
     {
         $output = '<div class="acfim-section">';
-		$output .= '<h3>Export options</h3>';
-		$output .= '<form method="post" enctype="multipart/form-data" action="'. $plugin_url .'&export">';
-		$output .= '<p>Comma separated list of all option field names. (Repeaters are accepted too)</p>';
-		$output .= '<input type="text" name="options" size="50" required/>';
-		$output .= get_submit_button('Export');
-		$output .= '</form>';
+            $output .= '<h3>Export options</h3>';
+            $output .= '<form method="post" enctype="multipart/form-data" action="'. $plugin_url .'&export">';
+                $output .= '<p>Comma separated list of all option field names. (Repeaters are accepted too)</p>';
+                $output .= '<input type="text" name="options" size="50" required/>';
+                $output .= get_submit_button('Export');
+            $output .= '</form>';
         $output .= '</div>';
 
         return $output;
