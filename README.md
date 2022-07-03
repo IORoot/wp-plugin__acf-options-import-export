@@ -1,12 +1,10 @@
 
-
 <div id="top"></div>
 
 <div align="center">
 
-<div style="filter: invert(72%) sepia(53%) saturate(4524%) hue-rotate(125deg) brightness(106%) contrast(101%);">
-<img src="https://cdn.jsdelivr.net/npm/@mdi/svg@6.7.96/svg/swap-vertical-bold.svg" style="width:200px;"/>
-</div>
+
+<img src="https://svg-rewriter.sachinraja.workers.dev/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40mdi%2Fsvg%406.7.96%2Fsvg%2Fswap-vertical-bold.svg&fill=%2300e4bc&width=200px&height=200px" style="width:200px;"/>
 
 <h3 align="center">ACF options importer/exporter</h3>
 
